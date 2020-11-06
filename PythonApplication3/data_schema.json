@@ -1,0 +1,32 @@
+{
+	"options": {
+		"$id": 10001,
+		"$type": "object",
+		"$requried": false,
+		"$anyOf": {
+			"allow-new-zones": {
+				"$id": 10002,
+				"$regex": [
+					"^(true|false)$"
+				],
+				"$type": "boolean",
+				"$requried": false
+			}
+		}
+	},
+	"options": {
+		"$id": 10001,
+		"$type": "object",
+		"$requried": false,
+		"$anyOf": {
+			"allow-new-zones": {
+				"$id": 10002,
+				"$regex": [
+					"^(true|false)$"
+				],
+				"$type": "boolean",
+				"$requried": false
+			}
+		}
+	}
+}

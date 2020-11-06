@@ -1,0 +1,3 @@
+options {
+      allow-new-zones true;
+    }
